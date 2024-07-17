@@ -8,6 +8,7 @@ h1 {
 .first-section, 
 .section,
 .third-section
+
  {
     display:flex;
     flex-direction: column;
@@ -15,7 +16,8 @@ h1 {
     padding:30px;
 }
 
-.first-section > div > .button {
+.first-section > div > .button,
+.fourth-section > div > .button {
     background-color: blue;
     color: #fff;
     border: 1px solid transparent;
@@ -68,7 +70,8 @@ h1 {
     margin:0;
 }
 
-.second-section {
+.second-section,
+.fourth-section {
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -76,7 +79,8 @@ h1 {
     padding:30px;
 }
 .second-section > .section-2,
-.section-3 {
+.section-3,
+.fourth-section > .section-4 {
     display:flex;
     flex-direction: column;
     align-items:flex-start;
@@ -165,3 +169,51 @@ a.button-2[disabled] {
     cursor: default;
     pointer-events: none;
 }
+
+.header-4 {
+    padding:30px;
+    margin:0;
+}
+
+
+/********************* ICONS  **********************/
+.section-4 > a.button {
+    display: flex;
+    align-items: center;
+}
+
+.section-4 > .button.btn-xl > svg {
+    width: 26px;
+    height: 26px;
+    padding: 20px;
+}
+.section-4 > .button.btn-lg > svg {
+    width: 20px;
+    height: 20px;
+    padding: 18px;
+}
+.section-4 > .button.btn-m > svg {
+    width: 16px;
+    height: 16px;
+    padding: 16px;
+}
+
+.section-4 > .button.btn-sm > svg {
+    width: 12px;
+    height: 12px;
+    padding: 14px;
+}
+.section-4 > .button.btn-xs > svg {
+    width: 10px;
+    height: 10px;
+    padding: 10px;;
+}
+
+
+
+
+
+
+
+
+
